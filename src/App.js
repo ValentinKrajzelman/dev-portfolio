@@ -7,11 +7,11 @@ import {
 import Navbar from "./components/navbar";
 
 function App() {
-  return ( 
+  return (
     <Router>
-    <div className="bg-orange-200 h-screen md:grid grid-cols-6">
-    <Navbar/>
-    </div> 
+      <div className="bg-orange-200 md:grid grid-cols-6">
+        <Navbar />
+      </div>
     </Router>
   );
 }
