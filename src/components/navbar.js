@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="bg-[#5F9DBF] col-span-6">
             <div className="flex flex-row items-center w-full place-content-evenly ">
                 <div className="text-6xl">
-                    <Link to="/home">VK</Link>
+                    <Link to="/hero">VK</Link>
                 </div>
                 <Squares />
                 <div className="text-3xl">
