@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div className="bg-[#5F9DBF] col-span-6">
-            <div className="flex flex-row items-center w-full place-content-evenly ">
+            <div className="flex flex-row items-center w-full place-content-evenly  ">
                 <div className="text-6xl">
                     <Link to="/hero">VK </Link>
                 </div>
