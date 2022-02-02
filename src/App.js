@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <div className="h-screen w-screen">
+      <div className="h-screen w-screen ">
         <Projects />
       </div>
       <div>
