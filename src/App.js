@@ -26,9 +26,8 @@ function App() {
       <div>
         <Skills />
       </div>
-      <div>
-        <About />
-      </div>
+
+      <About />
       <div>
         <Contact />
       </div>
