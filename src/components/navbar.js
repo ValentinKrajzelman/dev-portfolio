@@ -13,7 +13,7 @@ const Navbar = () => {
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-orange-200">
                         <div className="flex flex-row">
                             <div className="text-5xl">
-                                <Link to="/hero">VK </Link>
+                                <Link to="/hero">VK</Link>
                             </div>
                             <GrClose className="absolute right-10 top-10" />
                         </div>
