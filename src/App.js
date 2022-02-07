@@ -13,7 +13,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <Router>
-      <div className="h-screen w-screen bg-orange-200">
+      <div className="h-screen w-screen bg-orange-200 m-0 p-0 ">
         <Navbar />
         <Hero />
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiMoon, GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
@@ -7,18 +7,23 @@ import { GrClose } from "react-icons/gr";
 const Navbar = () => {
 
 
-    const [a, b] = [1, 2];
+    let [toggleNavbar, setToggle] = useState('translate-x-[100%]');
 
     function hamburger() {
         return (
-            <div className="text-3xl font-thin fixed z-10">
+            <div></div>);
+    }
+
+    return (
+        <div>
+            <div className={"fixed text-3xl font-thin z-10 " + toggleNavbar} >
                 <div className="w-screen h-screen grid grid-rows-[90%_10%]">
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-orange-200">
                         <div className="flex flex-row">
                             <div className="text-5xl">
                                 <Link to="/hero">VK </Link>
                             </div>
-                            <GrClose className="absolute right-10 top-10" />
+                            <button onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}><GrClose className="absolute right-10 top-5" /></button>
                         </div>
                         <div className="">
                             Projects
@@ -40,10 +45,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        );
-    }
-
-    return (<div><button onClick={hamburger()}><GiHamburgerMenu /></button></div>)
+            <button className="absolute right-10 top-5 text-2xl" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
+        </div>
+    )
 };
 
 export default Navbar;
