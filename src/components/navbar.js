@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <button className="absolute right-10 top-5 text-2xl" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
+            <button className="fixed right-10 top-5 text-2xl" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
         </div>
     )
 };
