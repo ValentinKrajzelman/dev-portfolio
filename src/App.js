@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
@@ -13,7 +13,10 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/Skills" component={Skills}></Route>
+      </Routes>
       <div className="h-screen w-screen bg-orange-200 m-0 p-0 ">
         <Navbar />
         <Hero />
@@ -22,6 +25,7 @@ function App() {
       <div className="h-screen w-screen ">
         <Projects />
       </div>
+
       <div>
         <Skills />
       </div>
@@ -36,7 +40,7 @@ function App() {
       <div>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
