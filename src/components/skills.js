@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
 
-    return (<div className="" id="aver">Skills</div>);
+    return (<div className="" id="skills">Skills</div>);
 };
 
 export default Skills;

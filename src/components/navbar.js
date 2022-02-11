@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { GiMoon, GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 
@@ -20,24 +20,13 @@ const Navbar = () => {
                 <div className="w-screen h-screen grid grid-rows-[90%_10%]">
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-orange-200">
                         <div className="flex flex-row">
-                            <div className="text-5xl">
-                                <Link to="/hero">VK </Link>
-                            </div>
+                            <HashLink smooth to='#hero' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>VK</HashLink>
                             <button onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}><GrClose className="absolute right-10 top-5" /></button>
                         </div>
-                        <div className="">
-                            Projects
-                        </div>
-                        <div className="">
-                            About
-                        </div>
-                        <div className="">
-                            Skills
-                        </div>
-
-                        <div className="">
-                            Contact
-                        </div>
+                        <HashLink smooth to='#projects' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Projects</HashLink>
+                        <HashLink smooth to='#skills' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Skills</HashLink>
+                        <HashLink smooth to='#about-me' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>About me</HashLink>
+                        <HashLink smooth to='#contact' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Contact</HashLink>
                     </div>
                     <div className="flex flex-row place-content-around items-center row-start-2 bg-blue-600 ">
                         <div className="">eng/esp</div>

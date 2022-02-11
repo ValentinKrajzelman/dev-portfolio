@@ -4,7 +4,7 @@ import ProjectsCard from "./projectsCard";
 
 const Projects = () => {
 
-    return (<div>
+    return (<div id='projects'>
         Hosted projects
         <ProjectsCard />
     </div>);

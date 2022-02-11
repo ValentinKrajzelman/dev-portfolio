@@ -14,31 +14,30 @@ import Footer from "./components/footer";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/Skills" component={Skills}></Route>
-      </Routes>
-      <div className="h-screen w-screen bg-orange-200 m-0 p-0 ">
-        <Navbar />
-        <Hero />
-        <EasyNavbar />
-      </div>
-      <div className="h-screen w-screen ">
-        <Projects />
-      </div>
-
       <div>
-        <Skills />
-      </div>
-
-      <About />
-      <div>
-        <Contact />
-      </div>
-      <div>
-        <ContactForm />
-      </div>
-      <div>
-        <Footer />
+        <div className="h-screen w-screen bg-orange-200 m-0 p-0 " id='hero'>
+          <Navbar />
+          <Hero />
+          <EasyNavbar />
+        </div>
+        <div className="h-screen w-screen ">
+          <Projects />
+        </div>
+        <div className="h-screen w-screen ">
+          <Skills />
+        </div>
+        <div className="h-screen w-screen ">
+          <About />
+        </div>
+        <div className="h-screen w-screen ">
+          <Contact />
+        </div>
+        <div className="h-screen w-screen ">
+          <ContactForm />
+        </div>
+        <div className="h-screen w-screen ">
+          <Footer />
+        </div>
       </div>
     </BrowserRouter>
   );
