@@ -8,11 +8,11 @@ const Hero = () => {
     return (
 
         <div className="h-full grid grid-rows-[20%_20%_60%]">
-            <div className="text-2xl row-start-1 flex flex-row items-center place-content-center">VK</div>
+            <div className="text-5xl row-start-1 flex flex-row items-center place-content-center">VK</div>
             <div className="row-start-2 px-5">Buscas talento? Dejame mostrarte que puedo ofrecer al equipo.</div>
-            <div className=" row-start-3">
+            <div className=" row-start-3 flex flex-row">
                 <img src={opcion1v3proyecto} />
-                <button><HashLink smooth to='#projects'>Projectos</HashLink></button>
+                <button><HashLink smooth to='#projects' className="w-auto h-auto">Projectos</HashLink></button>
             </div>
         </div>
 
