@@ -14,8 +14,8 @@ import Footer from "./components/footer";
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <div className="h-screen w-screen bg-orange-200 m-0 p-0 " id='hero'>
+      <div className="bg-[#B6DEEA] m-0 p-0">
+        <div className="h-screen w-screen" id='hero'>
           <Navbar />
           <Hero />
           <EasyNavbar />
