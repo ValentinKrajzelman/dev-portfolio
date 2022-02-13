@@ -18,7 +18,7 @@ const Navbar = () => {
         <div>
             <div className={"fixed text-3xl font-thin z-10 " + toggleNavbar} >
                 <div className="w-screen h-screen grid grid-rows-[90%_10%]">
-                    <div className="flex flex-col place-content-evenly items-center row-start-1 bg-orange-200">
+                    <div className="flex flex-col place-content-evenly items-center row-start-1 bg-[#B6DEEA]">
                         <div className="flex flex-row">
                             <HashLink smooth to='#hero' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>VK</HashLink>
                             <button onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}><GrClose className="absolute right-10 top-5" /></button>
@@ -28,13 +28,13 @@ const Navbar = () => {
                         <HashLink smooth to='#about-me' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>About me</HashLink>
                         <HashLink smooth to='#contact' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Contact</HashLink>
                     </div>
-                    <div className="flex flex-row place-content-around items-center row-start-2 bg-blue-600 ">
+                    <div className="flex flex-row place-content-around items-center row-start-2 bg-[#0075FF] ">
                         <div className="">eng/esp</div>
                         <GiMoon className="" />
                     </div>
                 </div>
             </div>
-            <button className="fixed right-10 top-5 text-2xl" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
+            <button className="fixed right-10 top-6 text-4xl" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
         </div>
     )
 };
