@@ -20,24 +20,12 @@ function App() {
           <Hero />
           <EasyNavbar />
         </div>
-        <div className="h-screen w-screen ">
-          <Projects />
-        </div>
-        <div className="h-screen w-screen ">
-          <Skills />
-        </div>
-        <div className="h-screen w-screen ">
-          <About />
-        </div>
-        <div className="h-screen w-screen ">
-          <Contact />
-        </div>
-        <div className="h-screen w-screen ">
-          <ContactForm />
-        </div>
-        <div className="h-screen w-screen ">
-          <Footer />
-        </div>
+        <Projects />
+        <Skills />
+        <About />
+        <Contact />
+        <ContactForm />
+        <Footer />
       </div>
     </BrowserRouter>
   );
