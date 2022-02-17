@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="mb-5 text-xl">Hola! Soy Valentin Krajzelman, <div className="bg-[#3B9CB9] p-1 inline-block ">Programador Full-Stack.</div></div>
                 <div className="text-sm">Buscas talento? Dejame mostrarte que puedo ofrecer al equipo.</div>
             </div>
-            <div className="relative w-screen overflow-hidden row-start-3 bg-[#32F1B5] ">
+            <div className="relative w-screen overflow-hidden row-start-3 bg-[#32F1B5]">
                 <HashLink className="relative top-[7.5rem] left-10 bg-[#0075FF] text-white text py-2 px-6" smooth to='#projects'>Projectos</HashLink>
                 <img className="absolute bottom-0 left-[40%]" src={fotoHero} />
             </div>
