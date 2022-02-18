@@ -2,11 +2,11 @@ import React from "react";
 import { BsLinkedin, BsFillArrowRightCircleFill, BsFillTelephoneFill, BsGithub } from "react-icons/bs"
 import { FiExternalLink } from "react-icons/fi";
 import { CgMail } from "react-icons/cg"
-import { useHref } from "react-router-dom";
+
 
 const Contact = () => {
 
-    return (<div className="h-screen ml-7" id='contact'>
+    return (<div className="ml-7" id='contact'>
         <div className="text-4xl pt-[10vh] ml-[-10px] tracking-wider"> Contact.
             <div className="text-xl mt-10 ">
                 <div className="flex place-content-start items-center mb-9"> <BsLinkedin className="mr-3 text-3xl" />
