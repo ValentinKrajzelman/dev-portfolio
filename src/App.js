@@ -18,7 +18,7 @@ function App() {
         <div className="h-screen w-screen" id='hero'>
           <Navbar />
           <Hero />
-          <EasyNavbar />
+          {/* <EasyNavbar /> */}
         </div>
         <Projects />
         <Skills />
