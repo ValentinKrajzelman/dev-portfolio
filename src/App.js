@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#B6DEEA] m-0 p-0">
-        <div className="h-screen w-screen" id='hero'>
+        <div className="h-screen w-screen " id='hero'>
           <Navbar />
           <Hero />
           <EasyNavbar />
