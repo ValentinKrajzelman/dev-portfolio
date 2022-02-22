@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className={"fixed text-3xl font-light z-20 " + toggleNavbar} >
+            <div className={"fixed text-3xl font-light z-20" + toggleNavbar} >
                 <div className="w-screen h-screen grid grid-rows-[90%_10%]">
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-[#B6DEEA]">
                         <div className="flex flex-row">
