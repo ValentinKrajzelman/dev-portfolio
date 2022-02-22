@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
@@ -14,8 +14,8 @@ import Footer from "./components/footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] font m-0 p-0 ">
-        <div className="h-screen w-screen " id='hero'>
+      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6]">
+        <div className="h-screen w-screen mb-20" id='hero'>
           <Navbar />
           <Hero />
           <EasyNavbar />

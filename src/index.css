@@ -5,3 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradiente {
+    background-image: linear-gradient( to right, #0A192F 55%, #F76E11 55%, #F76E11 85%, #0A192F 85%)
+  }
