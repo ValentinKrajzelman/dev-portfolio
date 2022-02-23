@@ -5,7 +5,7 @@ const ProjectsCard = () => {
 
     return (
         <div className="pt-16">
-            <div className="flex overflow-auto mb-10">
+            <div className="flex overflow-auto mb-10 px-20 pb-5 bg-slate-600 bg-opacity-40">
                 <div className="flex flex-col place-content-start mt-10 ml-5 h-[40vh] min-w-[27vh] max-w-[27vh] bg-[#576B75] bg-opacity-90 rounded-md ">
                     <div className="my-1 mx-2 text-xl tracking-wide">01.Bugtracker</div>
                     <div className=" mx-2 rounded-md bg-black h-28 text-[#FFF7D6]"> Aca va la imagen</div>
