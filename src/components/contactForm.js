@@ -18,7 +18,7 @@ export const ContactForm = () => {
 
     return (
         <div>
-            <div className='mt-[10vh] mb-5 mx-5 text-sm '>Si nesecitas dejarme un mensaje directo completa los datos y te voy a contestar a la brevedad. Gracias por pasarte :)</div>
+            <div className='mt-[10vh] mb-5 mx-5 text-sm '>Si necesitas dejarme un mensaje directo completa los datos y te voy a contestar a la brevedad. Gracias por pasarte :)</div>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-5 ">
                 <div className=''>
                     <div className='flex flex-col mb-3'>
