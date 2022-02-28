@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6]">
+      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
         <div className="h-screen w-screen mb-20" id='hero'>
           <Navbar />
           <Hero />
