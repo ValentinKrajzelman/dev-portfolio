@@ -25,8 +25,7 @@ const Navbar = () => {
                         <HashLink className="border-2 p-2 hover:bg-[#F76E11]" smooth to='#contact' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Contact</HashLink>
                     </div>
                     <div className="flex flex-row place-content-around items-center font-sans text-2xl row-start-2 bg-[#0075FF] ">
-                        <Link to="/eng" className="underline underline-offset-4" onClick={() => { setToggle('translate-x-[100%]') }}>Eng</Link>
-                        <Link to="/esp" className="underline underline-offset-4" onClick={() => { setToggle('translate-x-[100%]') }}>Esp</Link>
+                        <Link to="/esp" className="underline underline-offset-4" onClick={() => { setToggle('translate-x-[100%]') }}>About this</Link>
                     </div>
                 </div>
             </div>

@@ -21,10 +21,6 @@ const Contact = () => {
                         </div>
                     </a>
                 </div>
-                <div className="flex place-content-start items-center mb-9"> <BsFillTelephoneFill className="mr-3  text-3xl" />
-                    <div className="mr-4">Telephone</div><div className="text-sm"> +54 (0)221 154187611
-                    </div>
-                </div>
                 <div className="flex place-content-start items-center mb-9"> <CgMail className="mr-3  text-3xl" />
                     <div className="mr-4">Mail</div> <div className="text-sm">valentinkrajzelman@hotmail.com
                     </div>

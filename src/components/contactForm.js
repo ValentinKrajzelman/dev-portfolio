@@ -18,12 +18,12 @@ export const ContactForm = () => {
 
     return (
         <div>
-            <div className='mt-[10vh] mb-5 mx-5 text-sm '>Si necesitas dejarme un mensaje directo completa los datos y te voy a contestar a la brevedad. Gracias por pasarte :)</div>
+            <div className='mt-[10vh] mb-5 mx-5 text-sm '>If you prefer to send me a direct message leave it here and i will contact you as soon as possible. Thank you :)</div>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-5 ">
                 <div className=''>
                     <div className='flex flex-col mb-3'>
-                        <label>Nombre: </label>
-                        <input type="text" name="user_name" placeholder="Nombre" />
+                        <label>Name: </label>
+                        <input type="text" name="user_name" placeholder="Name" />
                     </div>
                     <div className='flex flex-col mb-3'>
                         <label>Email: </label>
@@ -31,8 +31,8 @@ export const ContactForm = () => {
                     </div>
                 </div>
                 <div className='flex flex-col mb-3'>
-                    <label>Mensaje: </label>
-                    <textarea className='h-[10vh]' name="message" placeholder="Mensaje" />
+                    <label>Message: </label>
+                    <textarea className='h-[10vh]' name="message" placeholder="Message" />
                 </div>
 
                 <input className='w-20 px-2 py-1 rounded-md bg-[#0075FF]' type="submit" value="Send" />
