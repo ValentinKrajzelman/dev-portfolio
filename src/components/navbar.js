@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div>
             <div className={"transition ease-in-out delay-150 duration-500 fixed text-3xl font-light z-20 " + toggleNavbar} >
-                <div className="w-screen h-screen grid grid-rows-[90%_10%]">
+                <div className="w-screen h-screen grid grid-rows-1">
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-[#0A192F]">
                         <div className="flex flex-row">
                             <HashLink className="border-2 p-2 hover:bg-[#F76E11]" smooth to='#hero' onClick={() => { setToggle('translate-x-[100%] ') }}>Inicio</HashLink>
@@ -24,9 +24,9 @@ const Navbar = () => {
                         <HashLink className="border-2 p-2 hover:bg-[#F76E11]" smooth to='#about-me' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>About me</HashLink>
                         <HashLink className="border-2 p-2 hover:bg-[#F76E11]" smooth to='#contact' onClick={() => { setToggle(toggleNavbar = 'translate-x-[100%]') }}>Contact</HashLink>
                     </div>
-                    <div className="flex flex-row place-content-around items-center font-sans text-2xl row-start-2 bg-[#0075FF] ">
+                    {/* <div className="flex flex-row place-content-around items-center font-sans text-2xl row-start-2 bg-[#0075FF] ">
                         <Link to="/esp" className="underline underline-offset-4" onClick={() => { setToggle('translate-x-[100%]') }}>About this</Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <button className="fixed right-10 top-6 text-4xl z-10 text-[#00C6BD]" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
