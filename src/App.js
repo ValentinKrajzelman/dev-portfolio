@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
+import PcNavbar from "./components/PcNavbar";
 import Hero from "./components/hero";
 import Projects from "./components/projects";
 import EasyNavbar from "./components/easyNavbar";
@@ -11,15 +12,20 @@ import Contact from "./components/contact";
 import ContactForm from "./components/contactForm";
 import Footer from "./components/footer";
 
+const conditionalRender = () => {
+  if (window.innerWidth < 1000) { return <div> <Navbar /> <EasyNavbar /> </div> }
+  else { return <PcNavbar /> }
+}
+
 function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
         <div className="h-screen w-screen mb-20" id='hero'>
-          <Navbar />
           <Hero />
-          <EasyNavbar />
+          {conditionalRender()}
         </div>
+
         <Projects />
         <Skills />
         <About />

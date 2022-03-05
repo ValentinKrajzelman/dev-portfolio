@@ -6,7 +6,7 @@ const Hero = () => {
 
     return (
 
-        <div className="h-full grid grid-rows-[15%_20%_65%] mb-9">
+        <div className="h-full grid grid-rows-[15%_20%_65%] mb-9 ">
             {/* <div className="text-5xl row-start-1 flex flex-row pt-5 pl-8 items-start place-content-start text-[#0075FF] font-light"></div> */}
             <div className="row-start-2 px-10">
                 <div className=" text-md">Hi! Im Valentin Krajzelman,</div>

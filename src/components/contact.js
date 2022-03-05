@@ -13,6 +13,7 @@ const Contact = () => {
                     <a className="flex place-content-start items-center" rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/valentin-krajzelman-b23380161/">
                         <div className="mr-4">Linkedin</div> <div className="flex text-xs items-center "> ValentinKrajzelman <FiExternalLink />
                         </div>
+
                     </a>
                 </div>
                 <div className="flex place-content-start items-center mb-9 "> <BsGithub className="mr-3  text-3xl" />
