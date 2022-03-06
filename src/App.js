@@ -11,10 +11,11 @@ import About from "./components/about";
 import Contact from "./components/contact";
 import ContactForm from "./components/contactForm";
 import Footer from "./components/footer";
+import PcHero from "./components/PcHero";
 
 const conditionalRender = () => {
-  if (window.innerWidth < 1000) { return <div> <Navbar /> <EasyNavbar /> </div> }
-  else { return <PcNavbar /> }
+  if (window.innerWidth < 1000) { return <div className="h-screen mb-20" id='hero'> <Navbar /> <Hero /> <EasyNavbar /> </div> }
+  else { return <div className="h-screen w-screen mb-20" id='hero'><PcNavbar /> <PcHero /></div> }
 }
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
     <BrowserRouter>
       <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
         <div className="h-screen w-screen mb-20" id='hero'>
-          <Hero />
           {conditionalRender()}
         </div>
 

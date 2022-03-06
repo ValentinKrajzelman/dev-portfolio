@@ -16,7 +16,7 @@ const Contact = () => {
 
                     </a>
                 </div>
-                <div className="flex place-content-start items-center mb-9 "> <BsGithub className="mr-3  text-3xl" />
+                <div className="flex place-content-start items-center mb-9"> <BsGithub className="mr-3  text-3xl" />
                     <a className="flex place-content-start items-center" rel="noopener noreferrer" target='_blank' href="https://github.com/ValentinKrajzelman">
                         <div className="mr-4">GitHub</div> <div className="flex text-xs items-center "> ValentinKrajzelman <FiExternalLink />
                         </div>
