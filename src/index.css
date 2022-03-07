@@ -8,3 +8,7 @@
 .gradiente {
     background-image: linear-gradient( to right, #0A192F 55%, #F76E11 55%, #F76E11 85%, #0A192F 85%)
   }
+
+.gradiente2{
+    background-image: linear-gradient( to right, #0A192F 65%, #F76E11 65%)
+}

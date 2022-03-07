@@ -15,14 +15,14 @@ import PcHero from "./components/PcHero";
 
 const conditionalRender = () => {
   if (window.innerWidth < 1000) { return <div className="h-screen mb-20" id='hero'> <Navbar /> <Hero /> <EasyNavbar /> </div> }
-  else { return <div className="h-screen w-screen mb-20" id='hero'><PcNavbar /> <PcHero /></div> }
+  else { return <div className="h-screen mb-20" id='hero'> <PcHero /></div> }
 }
 
 function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
-        <div className="h-screen w-screen mb-20" id='hero'>
+        <div className="w-max-screen" id='hero'>
           {conditionalRender()}
         </div>
 
