@@ -17,7 +17,7 @@ const PcHero = () => {
                     <HashLink className="border-2 p-2 hover:bg-[#F76E11] ml-3" smooth to='#contact' >Contact</HashLink>
                 </div>
                 <div className="mt-40 ml-32">
-                    <div className=" text-2xl">Hi! Im Valentin Krajzelman,</div>
+                    <div className="text-2xl">Hi! Im Valentin Krajzelman,</div>
                     <div className="text-8xl inline-block">Full-Stack developer.</div>
                     <div className="mt-5 text-xl font-light">Let me show you what can i offer to the team.</div>
                 </div>

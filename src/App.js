@@ -25,7 +25,6 @@ function App() {
         <div className="w-max-screen" id='hero'>
           {conditionalRender()}
         </div>
-
         <Projects />
         <Skills />
         <About />

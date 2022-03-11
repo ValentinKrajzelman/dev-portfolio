@@ -17,25 +17,28 @@ export const ContactForm = () => {
     };
 
     return (
-        <div>
-            <div className='mt-[10vh] mb-5 mx-5 text-sm '>If you prefer to send me a direct message leave it here and i will contact you as soon as possible. Thank you :)</div>
-            <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-5 ">
-                <div className=''>
-                    <div className='flex flex-col mb-3'>
-                        <label>Name: </label>
-                        <input type="text" name="user_name" placeholder="Name" />
+        <div className='md:flex md:flex-col md:place-items-center '>
+            <div className='mt-[10vh] mb-5 mx-5 text-sm md:text-lg'>If you prefer to send me a direct message leave it here and i will contact you as soon as possible. Thank you :)</div>
+            <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-5">
+                <div className='md:flex md:w-[50rem] md:place-items-center md:place-content-center'>
+                    <div className='md:flex flex-col md:mr-7 md:w-[15rem]'>
+
+                        <div className='flex flex-col mb-3'>
+                            <label>Name: </label>
+                            <input className='text-[#0A192F] p-1' type="text" name="user_name" placeholder="Name" />
+                        </div>
+                        <div className='flex flex-col mb-3'>
+                            <label>Email: </label>
+                            <input className='text-[#0A192F] p-1' type="email" placeholder="Email" name="user_email" />
+                        </div>
                     </div>
-                    <div className='flex flex-col mb-3'>
-                        <label>Email: </label>
-                        <input type="email" placeholder="Email" name="user_email" />
+                    <div className='flex flex-col mb-3 md:w-[15rem]'>
+                        <label>Message: </label>
+                        <textarea className='h-[10vh] text-[#0A192F] p-1' name="message" placeholder="Message" />
                     </div>
-                </div>
-                <div className='flex flex-col mb-3'>
-                    <label>Message: </label>
-                    <textarea className='h-[10vh]' name="message" placeholder="Message" />
                 </div>
 
-                <input className='w-20 px-2 py-1 rounded-md bg-[#0075FF]' type="submit" value="Send" />
+                <input className='md:ml-36 w-20 px-2 py-1 rounded-md bg-[#0075FF]' type="submit" value="Send" />
             </form>
         </div>
     );
