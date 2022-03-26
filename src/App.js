@@ -22,7 +22,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
-        <div className="w-max-screen" id='hero'>
+        <div className="w-max-screen " id='hero'>
           {conditionalRender()}
         </div>
         <Projects />
