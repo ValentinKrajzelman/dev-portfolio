@@ -18,7 +18,7 @@ const conditionalRender = () => {
   else { return <div className="h-screen mb-20" id='hero'> <PcHero /></div> }
 }
 
-//aca inicia la app
+
 function App() {
   return (
     <BrowserRouter>
