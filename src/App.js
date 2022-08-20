@@ -26,11 +26,14 @@ function App() {
         <div className="w-max-screen" id='hero'>
           {conditionalRender()}
         </div>
-        <Projects />
+        {/* <Projects /> */}
         <Skills />
         <About />
-        <Contact />
-        <ContactForm />
+        <div className="flex flex-col md:flex-row md:place-content-between lg:pr-12">
+
+          <Contact />
+          <ContactForm />
+        </div>
         <Footer />
       </div>
     </BrowserRouter>

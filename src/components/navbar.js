@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className={"transition ease-in-out delay-150 duration-500 fixed text-3xl font-light z-20 " + toggleNavbar} >
+            {/* <div className={"transition ease-in-out delay-150 duration-500 fixed text-3xl font-light z-20 " + toggleNavbar} >
                 <div className="w-screen h-screen grid grid-rows-1">
                     <div className="flex flex-col place-content-evenly items-center row-start-1 bg-[#0A192F]">
                         <div className="flex flex-row">
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <button className="fixed right-10 top-6 text-4xl z-10 text-[#00C6BD]" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button>
+            <button className="fixed right-10 top-6 text-4xl z-10 text-[#00C6BD]" onClick={() => { setToggle(toggleNavbar = '') }}><GiHamburgerMenu /></button> */}
         </div>
     )
 };

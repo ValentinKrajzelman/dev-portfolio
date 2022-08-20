@@ -6,7 +6,7 @@ const Skills = () => {
         <div className="md:ml-28 md:mr-16" id="skills">
             <div className="ml-5">
                 <div className="text-4xl md:text-5xl pt-[10vh]  tracking-wider">My Skills.</div>
-                <div className="md:flex md:align-middle">
+                <div className="flex flex-col md:flex-row md:align-middle">
                     <div className="mt-5 md:mt-0 md:w-96 text-lg md:text-2xl md:pt-8">Frontend
                         <div className="text-sm font-light md:h-10 md:pt-3">Besides html, css and the basics about UX and UI design. <br />
                         </div>
@@ -33,11 +33,15 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className=" text-lg md:mt-16 md:w-96">Soft Skills
-                    <div className=" text-md  mr-3">I like to work on teams and to be useful to other people.
-                        I adapt to new enviorments easily and im a fast learner. <br />
-                        Communicative. hardworking. Creative. or atleast i try :D
+                    <div className="md:mt-7 md:w-96">
+                        <div className="text-lg md:text-2xl">
+
+                            Soft Skills
+                        </div>
+                        <div className=" md:text-md  mr-3">I like to work on teams and to be useful to other people.
+                            I adapt to new enviorments easily and im a fast learner. <br />
+                            Communicative. hardworking. Creative. or atleast i try :D
+                        </div>
                     </div>
                 </div>
             </div>
