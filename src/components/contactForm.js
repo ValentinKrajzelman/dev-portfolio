@@ -17,7 +17,7 @@ export const ContactForm = () => {
     };
 
     return (
-        <div className='md:flex md:flex-col md:place-items-center md:mt-32 md:pr-[30rem]'>
+        <div className='md:flex md:flex-col md:place-items-center md:mt-32 '>
             <div className='mb-5 mx-5 text-sm md:text-lg'>Or send me a direct message, i will contact you as soon as possible.</div>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-5">
                 <div className='md:flex md:w-[50rem] md:place-items-center md:place-content-center'>

@@ -22,14 +22,14 @@ const conditionalRender = () => {
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] ">
+      <div className="bg-[#0A192F] font-['Oswald'] text-[#FFF7D6] overflow-y-hidden">
         <div className="w-max-screen" id='hero'>
           {conditionalRender()}
         </div>
         {/* <Projects /> */}
         <Skills />
         <About />
-        <div className="flex flex-col md:flex-row md:place-content-between lg:pr-12">
+        <div className="flex flex-col md:flex-row md:place-content-between ">
 
           <Contact />
           <ContactForm />
