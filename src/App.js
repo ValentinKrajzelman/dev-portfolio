@@ -13,6 +13,7 @@ import ContactForm from "./components/contactForm";
 import Footer from "./components/footer";
 import PcHero from "./components/PcHero";
 
+
 const conditionalRender = () => {
   if (window.innerWidth < 1000) { return <div className="h-screen mb-20" id='hero'> <Navbar /> <Hero /> <EasyNavbar /> </div> }
   else { return <div className="h-screen mb-20" id='hero'> <PcHero /></div> }
