@@ -38,7 +38,7 @@ export const ContactForm = () => {
                     </div>
                 </div>
 
-                <input className='md:ml-36 w-20 px-2 py-1 rounded-md bg-[#0075FF]' type="submit" value="Send" />
+                <input className='md:ml-36 w-20 px-2 py-1 rounded-md bg-[#0075FF] ' type="submit" value="Send" />
             </form>
         </div>
     );
